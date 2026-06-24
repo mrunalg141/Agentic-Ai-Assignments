@@ -1,0 +1,99 @@
+Q1. What does the replace() method do in Python? How many arguments does it take?
+Ans: replace() replaces one substring with another substring. It mainly takes 2 arguments.
+
+Q2. What is the difference between lstrip(), rstrip(), and strip()? Give one example of each.
+Ans:
+lstrip() removes spaces from the left side.
+rstrip() removes spaces from the right side.
+strip() removes spaces from both sides.
+
+Example:
+
+"  hello".lstrip()
+"hello  ".rstrip()
+"  hello  ".strip()
+
+Q3. What does split() return? What is the default delimiter if none is provided?
+Ans: split() returns a list of strings. Default delimiter is space.
+
+Q4. What is the difference between capitalize() and title()? Give one example where their output is different.
+Ans: capitalize() makes only the first letter uppercase, while title() makes the first letter of every word uppercase.
+
+Example:
+
+"hello world".capitalize()
+"hello world".title()
+
+Q5. What does swapcase() do? What will "Hello World".swapcase() return?
+Ans: swapcase() changes uppercase to lowercase and lowercase to uppercase.
+Output: "hELLO wORLD"
+
+Q6. What is the difference between chr() and ord()? Give one example of each.
+Ans: chr() converts ASCII value to character, while ord() converts character to ASCII value.
+
+Examples:
+
+chr(65)
+ord('A')
+
+Q7. What does the str() built-in function do? Give one real-life example of when you would use it.
+Ans: str() converts a value into string type.
+Example: Converting a number before concatenating with text.
+
+Q8. What does join() do? Which object calls join() -- the list or the separator string?
+Ans: join() combines elements of a list into a single string. The separator string calls join().
+
+Q9. What is the difference between split() and partition()?
+Ans: split() divides a string into multiple parts, while partition() divides into exactly 3 parts.
+
+Q10. What does strip() remove from a string? Does it remove whitespace from the middle of a string?
+Ans: strip() removes whitespace from the beginning and end only. It does not remove spaces from the middle.
+
+Q11. What is the difference between lower() and upper()? Do they change the original string?
+Ans: lower() converts to lowercase and upper() converts to uppercase. They do not change the original string.
+
+Q12. What is the difference between str(), int(), float(), and complex() in Python? Which category do they belong to -- methods or built-in functions?
+Ans:
+str() converts to string
+int() converts to integer
+float() converts to float
+complex() converts to complex number
+They are built-in functions.
+
+Q13. What will int("25") return? What will float("25") return? What is the difference in output?
+Ans:
+int("25") returns 25
+float("25") returns 25.0
+Difference is integer and decimal output.
+
+Q14. Can you convert a float to int using int()? What happens to the decimal part -- does it round off or truncate?
+Ans: Yes. The decimal part is truncated.
+
+Q15. What does complex() do? Give one example of a complex number and how str() converts it.
+Ans: complex() creates a complex number.
+Example: 3+4j
+str(3+4j) converts it into string form.
+
+Q16. What will str(10), str(10.5), and str(10+4j) return? What type will each result be?
+Ans:
+str(10) returns "10"
+str(10.5) returns "10.5"
+str(10+4j) returns "(10+4j)"
+All results are of string type.
+
+Q17. What does partition() return when the separator is NOT found in the string?
+Ans: It returns the original string and two empty strings.
+
+Q18. What is the difference between replace() and split()? Can both be used to remove a word from a string?
+Ans: replace() substitutes text, while split() divides the string. Yes, both can help remove words in different ways.
+
+Q19. What will "hello".upper().swapcase() return? Explain method chaining with this example.
+Ans: Output is "hello".
+Method chaining means calling multiple methods one after another.
+
+Q20. If chr(65) gives "A", what will chr(66), chr(67), and chr(90) give? What concept does this relate to?
+Ans:
+chr(66) gives "B"
+chr(67) gives "C"
+chr(90) gives "Z"
+This relates to ASCII values.

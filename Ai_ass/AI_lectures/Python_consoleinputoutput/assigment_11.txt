@@ -1,0 +1,41 @@
+Q1. What are the three main ways to print formatted output in Python?
+Ans: Normal print method, format() method, and f-string.
+
+Q2. What is string concatenation? What operator is used for it?
+Ans: Joining two or more strings together is called string concatenation. + operator is used.
+
+Q3. Why do you need to convert an integer to str() before using string concatenation? What error occurs if you don't?
+Ans: Because concatenation works only with strings. Without conversion, Python gives TypeError.
+
+Q4. What is the difference between the normal print method and string concatenation?
+Ans: Normal print automatically handles different data types, while concatenation requires all values to be strings.
+
+Q5. What does {} represent inside the format() method?
+Ans: {} represents placeholders for values.
+
+Q6. Does the order of variables inside format() matter? What happens if you change the order?
+Ans: Yes, order matters. Changing the order changes the output positions.
+
+Q7. What is an f-string? What letter do you write before the string and why?
+Ans: An f-string is a formatted string. We write f before the string to insert variables directly inside it.
+
+Q8. What is the difference between format() and f-string? Which one is easier to read?
+Ans: format() uses placeholders and separate values, while f-string directly places variables inside the string. F-string is easier to read.
+
+Q9. Can you perform calculations directly inside an f-string like {price * qty}? Does it work?
+Ans: Yes, calculations inside f-strings work correctly.
+
+Q10. What will happen if you write print("Age: " + 25)? How do you fix it?
+Ans: It gives TypeError. Fix it using str(25).
+
+Q11. Which printing method is the most modern and recommended in Python 3 -- normal, format(), or f-string?
+Ans: F-string is the most modern and recommended method.
+
+Q12. Write the same sentence using all three methods -- normal print, format(), and f-string -- for name = "Raj" and age = 22.
+Ans:
+Normal print:
+name = "Raj"age = 22print("Name:", name, "Age:", age)
+Using format():
+name = "Raj"age = 22print("Name: {} Age: {}".format(name, age))
+Using f-string:
+name = "Raj"age = 22print(f"Name: {name} Age: {age}")

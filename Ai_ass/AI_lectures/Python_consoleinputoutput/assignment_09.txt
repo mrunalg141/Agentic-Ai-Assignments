@@ -1,0 +1,50 @@
+Q1. What is Console I/O in Python? What is the difference between input and output?
+Ans: Console I/O means taking input from the user and displaying output on the screen. Input receives data, while output displays data.
+
+Q2. What does the print() function do? Write its full syntax including sep and end parameters.
+Ans: print() displays output on the screen.
+Syntax:
+print(objects, sep=' ', end='\n')
+
+Q3. What is the default value of sep in print()? What will print("Hello", "World") output?
+Ans: Default value of sep is space.
+Output: Hello World
+
+Q4. What does the end parameter in print() do? What is its default value?
+Ans: end decides what comes after the output. Default value is newline \n.
+
+Q5. What is the difference between print(name, height, weight) and print(name, height, weight, sep="-")?
+Ans: First print uses space between values, while second print uses hyphen - between values.
+
+Q6. What does the input() function do? What data type does it always return?
+Ans: input() takes input from the user. It always returns string type.
+
+Q7. A user enters 25 using input(). If you directly use it in a calculation, what problem will occur and how do you fix it?
+Ans: It will be treated as a string and may cause an error in calculations. Use int() to convert it into integer.
+
+Q8. What is the difference between print(10) and print("10")? Will the output look the same?
+Ans: 10 is an integer while "10" is a string. Output looks the same but data types are different.
+
+Q9. What does the type() function do? Give examples of what it returns for int, float, str, and bool.
+Ans: type() returns the data type of a value.
+Examples:
+type(10)type(10.5)type("Hello")type(True)
+
+Q10. What does the id() function return? Will two variables with the same value always have the same id?
+Ans: id() returns the memory address of an object. No, two variables may not always have the same id.
+Q11. What is the difference between input() with a prompt string and input() without one?
+Ans: Prompt string displays a message to the user, while input without prompt shows no message.
+
+Q12. How would you take name, age, and height as input from a user and print them all in one line with a hyphen separator?
+Ans:
+name = input("Enter name: ")age = input("Enter age: ")height = input("Enter height: ")print(name, age, height, sep="-")
+
+Q13. What will be the output of the following and why?
+val = input("Enter a number: ")print(type(val))
+Ans: Output will be <class 'str'> because input() always returns a string.
+
+Q14. What is the difference between print(name) and print("name")? When does each one get used?
+Ans: print(name) prints the value stored in variable name, while print("name") prints the word name itself.
+
+Q15. How is print() different from input()? Which one is used for output and which one is used for receiving data from the user?
+Ans: print() is used for output, while input() is used for receiving data from the user.

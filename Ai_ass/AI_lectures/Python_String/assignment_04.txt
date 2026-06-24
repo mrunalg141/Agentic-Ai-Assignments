@@ -1,0 +1,55 @@
+Q1. What is a string in Python? What types of characters can a string contain?
+Ans: A string is a sequence of characters enclosed in quotes. It can contain letters, numbers, symbols, and spaces.
+
+Q2. What are the four ways to create a string in Python? Give an example of each.
+Ans:
+
+'Hello'
+"Hello"
+'''Hello'''
+"""Hello"""
+
+Q3. What is the difference between """...""" and \ (backslash) for multiline strings? How does the output differ?
+Ans: Triple quotes create multiline strings directly. Backslash continues the same line without giving a new line in output.
+
+Q4. What is string indexing? How does Python’s positive indexing start and in which direction does it go?
+Ans: String indexing is used to access characters of a string. Positive indexing starts from 0 and moves from left to right.
+
+Q5. What is negative indexing? What does index -1 always refer to in any string?
+Ans: Negative indexing starts from the end of the string. Index -1 refers to the last character.
+
+Q6. For s = "welcome to india", what is the output of s[-1], s[-5], and s[-16]?
+Ans:
+s[-1] = a
+s[-5] = i
+s[-16] = w
+
+Q7. What is string slicing? Write the general syntax with start, stop, and step.
+Ans: String slicing is used to extract part of a string.
+Syntax: s[start:stop:step]
+
+Q8. In slicing, the stop index is exclusive — what does that mean? Give an example.
+Ans: Exclusive means the stop index is not included.
+Example: "Python"[0:4] gives Pyth
+
+Q9. What is the output of "welcome to india"[0:7:2]? Explain why.
+Ans: Output is wloe because every second character is selected from index 0 to 6.
+
+Q10. What happens when you use s[:] or s[::] on a string? What does it return?
+Ans: It returns the complete string.
+
+Q11. Can you change a single character of a string using indexing like s[0] = 'W'? Why or why not?
+Ans: No, because strings are immutable in Python.
+
+Q12. What is the difference between s[11:16] and s[11:] for s = "welcome to india"?
+Ans: s[11:16] gives characters from index 11 to 15, while s[11:] gives characters from index 11 till the end.
+
+Q13. What does type("Hello") return? What class do all strings belong to in Python?
+Ans: It returns <class 'str'>. All strings belong to the str class.
+
+Q14. If s = "Python", what is s[1:-1]? Explain the result.
+Ans: The output is ytho because it starts from index 1 and stops before the last character.
+
+Q15. What is an escape character? Give two real examples from the notebook (like ' and ).
+Ans: Escape characters are special characters used with backslash \.
+Examples: \' and \n

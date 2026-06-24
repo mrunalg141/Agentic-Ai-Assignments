@@ -1,0 +1,45 @@
+Q1. What is a string in Python?
+Ans: A string is a sequence of characters enclosed in quotes.
+
+Q2. Why are strings called immutable objects?
+Ans: Because strings cannot be changed after creation.
+
+Q3. What is the difference between indexing and slicing?
+Ans: Indexing accesses a single character, while slicing accesses multiple characters.
+
+Q4. What is the difference between positive indexing and negative indexing?
+Ans: Positive indexing starts from left to right, while negative indexing starts from right to left.
+
+Q5. What happens if we try to modify a string directly?
+Ans: Python gives an error because strings are immutable.
+
+Q6. What is string concatenation?
+Ans: Joining two or more strings together is called string concatenation.
+
+Q7. Which operators are commonly used with strings in Python?
+Ans: +, *, in, and not in operators are commonly used.
+
+Q8. What is the purpose of the repetition operator in strings?
+Ans: It repeats a string multiple times.
+
+Q9. What is the use of membership operators in strings?
+Ans: They check whether a character or word is present in a string.
+
+Q10. What is the difference between in and not in operators?
+Ans: in checks if a value is present, while not in checks if a value is absent.
+
+Q11. What does the len() function return for a string?
+Ans: It returns the number of characters in the string.
+
+
+Q12. How do min() and max() work on strings?
+Ans: min() returns the smallest character and max() returns the largest character based on ASCII values.
+
+Q13. What is the use of the ord() function?
+Ans: It returns the ASCII value of a character.
+
+Q14. What is the use of the chr() function?
+Ans: It returns the character for a given ASCII value.
+
+Q15. How can you reverse a string in Python?
+Ans: By using slicing. Example: s[::-1]

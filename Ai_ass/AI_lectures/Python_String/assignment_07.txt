@@ -1,0 +1,29 @@
+Q1. What is the difference between string methods and string built-in functions? Give the syntax of each.
+
+Q2. What are the 5 common categories of string methods in Python? Name one method from each category.
+
+Q3. What does isalpha() return and what are the exact conditions for it to return True?
+
+Q4. What is the difference between isdigit() and isalnum()? Give one example where their outputs differ.
+
+Q5. Does islower() return False if the string contains digits or spaces? Explain with an example.
+
+Q6. What is the return type of isalpha(), isdigit(), isalnum(), islower(), isupper(), startswith(), and endswith()?
+
+Q7. What does the find() method return when a substring is NOT found in the string?
+
+Q8. Is find() case-sensitive? What will "Hello".find("hello") return?
+
+Q9. What is the return value of find() when the substring IS found?
+
+Q10. What is the difference between len(), min(), and max() when applied to strings?
+
+Q11. Can you call upper() or lower() on an already uppercase or lowercase string? What happens?
+
+Q12. What will isupper() return for a string that contains digits along with uppercase letters, like "HELLO123"?
+
+Q13. What is the syntax of startswith() and endswith()? Can they accept a tuple of values?
+
+Q14. A student wrote print(isalpha(name)). What is wrong with this, and how do you fix it?
+
+Q15. What is the difference between find() and index() in Python strings?

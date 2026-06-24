@@ -1,0 +1,36 @@
+Q1. What does the input() function always return, regardless of what the user types?
+Ans: input() always returns a string (str).
+Q2. A student writes the following code expecting the output 30, but gets 1020. Why?
+a = input("Enter first number: ")b = input("Enter second number: ")print(a + b)
+Ans: Because input() returns strings, so "10" + "20" becomes "1020" by string concatenation.
+Q3. What are the two ways to fix the string addition problem when taking numeric input? Write both solutions.
+Ans:
+a = int(input("Enter first number: "))b = int(input("Enter second number: "))print(a + b)
+a = input("Enter first number: ")b = input("Enter second number: ")print(int(a) + int(b))
+Q4. What is int() in Python -- is it a method or a built-in function? What types can it convert?
+Ans: int() is a built-in function. It converts values into integer type.
+Q5. What is the difference between int(input()) and first taking input then converting using int()?
+Ans: Both give the same result. int(input()) is shorter, while separate conversion gives more control.
+Q6. What does id() return in Python? What does the id number represent?
+Ans: id() returns the memory address of an object. The id number represents the object’s identity in memory.
+Q7. If you assign a variable num = 10 and then reassign num = 30, does the id change? What does this tell you about integers?
+Ans: Yes, the id changes. This shows that integers are immutable.
+Q8. What does immutable mean in Python? Which data types are immutable?
+Ans: Immutable means values cannot be changed after creation.
+Examples: int, float, str, tuple
+Q9. What is the difference between mutable and immutable data types? Give one example of each.
+Ans: Mutable objects can be changed, while immutable objects cannot be changed.
+Example of mutable: list
+Example of immutable: string
+Q10. When you modify a list element like list1[0] = 15, does the id of the list change? What does this tell you about lists?
+Ans: No, the id does not change. This tells us lists are mutable.
+Q11. What happens when you try to convert a float string like "10.5" directly using int()? Will it work?
+Ans: No, it gives an error.
+Q12. What is the difference between float() and int() when converting user input?
+Ans: int() converts to whole numbers, while float() converts to decimal numbers.
+Q13. Why is it important to convert input() to int() or float() before doing arithmetic operations?
+Ans: Because input() returns a string, and arithmetic operations need numeric data types.
+Q14. What will type(input()) always return no matter what the user types -- int, float, or str?
+Ans: It always returns str.
+Q15. In memory, when num1 = 10 and then num1 = 10.1 is assigned, what happens to the old memory location storing 10?
+Ans: The variable points to a new memory location for 10.1, while the old value 10 remains in memory until removed by Python.
